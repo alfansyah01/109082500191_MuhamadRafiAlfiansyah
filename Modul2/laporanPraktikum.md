@@ -1,7 +1,7 @@
-# <h1 align="center">Laporan Praktikum Modul 2 - ... </h1>
+# <h1 align="center">Laporan Praktikum Modul 2 - REVIEW ALGORITMA DAN PEMROGRAMAN 1 </h1>
 <p align="center">Muhamad Rafi Alfiansyah - 109082500191</p>
 
-## Unguided 
+## guided 
 
 ### 1. SoalA
 #### 12A.go
@@ -32,11 +32,11 @@ func main() {
 
 ```
 
-### Output Unguided :
+### Output guided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
-[penjelasan]
+![Screenshot Output guided A_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul2/Output/Output_SoalA.png)
+### Penjelasan :
 
 ### 2. SoalB
 #### 12B.go
@@ -64,8 +64,8 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
-[penjelasan]
+![Screenshot Output guided B_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul2/Output/Output_SoalB.png)
+### Penjelasan :
 
 ### 3. SoalC
 #### 12c.go
@@ -104,5 +104,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
-[penjelasan]
+![Screenshot Output guided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul2/Output/Output_SoalC.png)
+### Penjelasan : 
