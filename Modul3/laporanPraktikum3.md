@@ -37,8 +37,9 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul3/Output/SSModul3Soal1.png)
 [penjelasan]
+Buat menghitung permutasi dan kombinasi dari dua pasang bilangan, yaitu (a, c) dan (b, d) dengan syarat a ≥ c dan b ≥ d. Di dalam programnya ada fungsi factorial yang dipake buat menghitung nilai faktorial dengan perulangan. Terus ada fungsi permutation untuk menghitung banyaknya cara milih tanpa merhatiin urutan dengan rumus P(n, r) = n!/(n−r)!, dan fungsi combination buat menghitung banyaknya cara memilih tanpa memperhatikan urutan dengan rumus C(n, r) = n!/(r!(n−r)!). Di bagian utama, program menerima empat input, kemudian menampilkan hasil permutasi dan kombinasi dari masing-masing pasangan dalam dua baris output.
 
 ### 2. [Soal]
 #### Modul3Soal2.go
@@ -73,8 +74,9 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul3/Output/SSModul3Soal2.png)
 [penjelasan]
+Program ini dibuat untuk menghitung hasil dari fungsi komposisi berdasarkan tiga fungsi, yaitu f(x) = x², g(x) = x − 2, dan h(x) = x + 1. Di dalam programnya ada tiga fungsi, yaitu f, g, dan h, yang masing-masing merepresentasikan rumus tersebut. Lalu di bagian utama, program menerima tiga input bilangan a, b, dan c. Setelah itu dihitung hasil komposisi fungsi, yaitu f(g(h(a))) untuk baris pertama, g(h(f(b))) untuk baris kedua, dan h(f(g(c))) untuk baris ketiga. Hasil dari masing-masing perhitungan kemudian ditampilkan dalam tiga baris output.
 
 ### 3. [Soal]
 #### Modul3Soal3.go
@@ -118,5 +120,8 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul3/Output/SSModul3Soal3.png)
 [penjelasan]
+Program ini dibuat buat nentuin posisi suatu titik terhadap dua lingkaran, jadi bisa kelihatan apakah titiknya ada di lingkaran 1, lingkaran 2, dua-duanya, atau malah di luar semua. Di dalamnya ada fungsi jarak(a, b, c, d) buat ngitung jarak antara dua titik (a, b) ke (c, d) pakai rumus akar kuadrat. Terus ada fungsi didalam(cx, cy, r, x, y) yang dipakai buat ngecek apakah titik (x, y) masuk ke lingkaran dengan pusat (cx, cy) dan radius r, caranya dengan ngebandingin hasil jarak ke pusat sama nilai r.
+
+Program nerima input cx1, cy1, r1 buat lingkaran pertama, cx2, cy2, r2 buat lingkaran kedua, sama x, y sebagai titik yang mau dicek. Dari situ ditentuin apakah titiknya masuk ke lingkaran 1 (in1) atau lingkaran 2 (in2). Kalau dua-duanya masuk berarti titiknya ada di dalam kedua lingkaran, kalau cuma salah satu berarti di lingkaran itu aja, dan kalau gak masuk dua-duanya berarti titiknya ada di luar kedua lingkaran.
