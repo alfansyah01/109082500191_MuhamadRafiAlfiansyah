@@ -143,6 +143,10 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/SSModul9Soal2.png)
 [penjelasan]
+Program untuk menentukan posisi suatu titik terhadap dua lingkaran. dibuat tipe bentukan titik untuk menyimpan koordinat (x, y) dan tipe lingkaran yang berisi titik pusat serta jari-jari.
+Kemudian dibuat fungsi jarak untuk menghitung jarak antara dua titik menggunakan rumus jarak Euclidean, hasil dari fungsi ini digunakan di fungsi didalam untuk mengecek apakah titik berada di dalam lingkaran, yaitu dengan membandingkan jarak titik ke pusat lingkaran dengan nilai radius.
+Di dalam fungsi main, program menerima input dua lingkaran berupa titik pusat dan radius, serta satu titik sembarang. Setelah itu dilakukan pengecekan apakah titik tersebut berada di dalam lingkaran pertama, lingkaran kedua, keduanya, atau tidak berada di dalam keduanya.
+Hasil akhirnya ditampilkan dalam bentuk kalimat yang menunjukkan posisi titik terhadap kedua lingkaran tersebut.
 
 ### 3. [Soal]
 #### soal1.go
@@ -198,6 +202,9 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/SSModul9Soal3.png)
 [penjelasan]
+Program untuk mencatat hasil pertandingan antara dua klub bola. user memasukkan nama dua klub yang akan bertanding. abis tu program akan meminta input skor dari tiap pertandingan secara berulang, dengan format skor klub A dan klub B. Proses ini akan terus berjalan sampai salah satu atau kedua skor yang dimasukkan bernilai negatif, yang menandakan bahwa input pertandingan sudah selesai.
+tiap hasil pertandingan akan dicek untuk menentukan pemenangnya. Kalo skor klub A lebih besar maka nama klub A disimpan, kalo skor klub B lebih besar maka nama klub B yang disimpan, dan kalo kedua skor sama maka disimpan sebagai “Draw”. Semua hasil tersebut disimpan dalam sebuah array untuk ditampilkan di akhir.
+Setelah proses input selesai, program akan menampilkan daftar hasil pertandingan satu per satu sesuai urutan. Terakhir, program menampilkan pesan bahwa pertandingan telah selesai.
 
 ### 4. [Soal]
 #### soal1.go
@@ -263,3 +270,6 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/SSModul9Soal4.png)
 [penjelasan]
+Program yg dibuat untuk mengolah sekumpulan karakter yang disimpan dalam array. Pertama, user memasukkan sebuah teks yang kemudian setiap karakternya disimpan ke dalam array bertipe rune. Jumlah karakter yang dimasukkan disimpan dalam variabel n agar bisa digunakan pada proses berikutnya.
+Lalu program mengecek apakah susunan karakter tersebut merupakan palindrom atau tidak. Pengecekan dilakukan dengan membandingkan karakter dari depan dan belakang secara berpasangan. Kalo semua sama maka hasilnya true, kalo ada yang berbeda maka false.
+Selanjutnya isi array dibalik menggunakan proses pertukaran elemen dari depan ke belakang. Habis dibalik hasilnya ditampilkan ke layar sehingga pengguna bisa melihat teks dalam urutan terbalik.
