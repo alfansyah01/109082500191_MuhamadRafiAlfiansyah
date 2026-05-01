@@ -57,6 +57,10 @@ func main(){
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/SSModul9Soal1.png)
 [penjelasan]
+Program buat menentukan posisi titik terhadap dua lingkaran. Pertama dibuat tipe bentukan titik untuk menyimpan koordinat (x,y) dan tipe lingkaran yang berisi titik pusat dan jari jari.
+Kemudian dibuat fungsi jarak untuk menghitung jarak antara dua titik menggunakan rumus jarak Euclidean. Fungsi ini dipakai di dalam fungsi didalam untuk mengecek apakah suatu titik berada di dalam lingkaran, yaitu dengan membandingkan jarak titik ke pusat lingkaran dengan nilai radius.
+Di dalam fungsi main program menerima input data dua lingkaran (titik pusat dan radius) serta satu titik sembarang. Setelah itu dilakukan pengecekan apakah titik tersebut berada di dalam lingkaran pertama, lingkaran kedua, keduanya, atau tidak di dalam keduanya.
+Hasil akhir ditampilkan dalam bentuk kalimat sesuai dengan posisi titik terhadap kedua lingkaran tersebut.
 
 ### 2. [Soal]
 #### soal1.go
