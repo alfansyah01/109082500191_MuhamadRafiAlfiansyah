@@ -45,6 +45,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/ssSoal1Modul10.png)
 [penjelasan]
+program buat cari berat anak kelinci terkecil dan terbesar pake array bertipe float64 dengan kapasitas 1000. Program minta input jumlah anak kelinci yang mau ditimbang, kemudian data beratnya disimpan ke dalam array. Program melakukan proses pencarian nilai min dan maks dengan jadiin data pertama jadi nilai awal pembanding. Data dibandingkan satu per satu sampai semua data selesai diperiksa. Outputnya berupa berat kelinci terbesar dan terkecil.
 
 ### 2. [Soal]
 #### Soal2Modul10.go
@@ -91,6 +92,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/ssSoal2Modul10.png)
 [penjelasan]
+Program buat hitung total berat ikan ditiap wadah dan cari rata - rata berat seluruh wadahnya pake array bertipe float64 dengan kapasitas 1000. Input berupa kumlah ikan dan jumlah ikan yang dimasukkan ke tiap wadah, terus data berat ikannya disimpan ke array. Lalu menghitung total berat ikan ditiap wadah sesuai urutan data yang dimasukkan. Total berat setiap wadah ditampilkan, lalu seluruh total wadah dijumlahkan untuk mencari nilai rata-ratanya. Output program berupa total berat ikan pada setiap wadah dan rata-rata berat seluruh wadah.
 
 ### 3. [Soal]
 #### Soal3Modul10.go
@@ -153,3 +155,4 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](Output/ssSoal3Modul10.png)
 [penjelasan]
+Program buat cari berat balita terkecil, terbesar dan rata - rata pake array bertipe float64 dengan kapasitas 100. Input berupa jumlah balita. Proses pencarian nilai minimum dan maksimum dilakukan menggunakan fungsi hitungMinMax dengan menjadikan data pertama sebagai nilai awal pembanding, lalu seluruh data dibandingkan satu per satu sampai selesai. Program menggunakan fungsi rerata untuk menghitung rata-rata berat balita dengan menjumlahkan seluruh data kemudian membaginya dengan banyak data. Output program berupa berat balita minimum, maksimum, dan rata-rata berat balita.
