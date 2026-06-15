@@ -66,6 +66,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
 [penjelasan]
+Program ini digunakan untuk mengurutkan nomor rumah kerabat Hercules di setiap daerah secara menaik (ascending) menggunakan algoritma Selection Sort. Algoritma bekerja dengan mencari nilai terkecil dari bagian array yang belum terurut, kemudian menukarnya dengan elemen pada posisi paling depan. Proses ini diulang hingga seluruh data tersusun dari nomor rumah terkecil hingga terbesar sesuai dengan ketentuan soal.
 
 ### 2. Belakangan diketahui ternyata Hercules itu tidak berani menyeberang jalan, maka selalu diusahakan agar hanya menyeberang jalan sesedikit mungkin, hanya diujung jalan. Karena nomor rumah sisi kiri jalan selalu ganjil dan sisi kanan jalan selalu genap, maka buatlah program kerabat dekat yang akan menampilkan nomor rumah mulai dari nomor yang ganjil lebih dulu terurut membesar dan kemudian menampilkan nomor rumah dengan nomor genap terurut mengecil. Format Masukan masih persis sama seperti sebelumnya. Keluaran terdiri dari n baris, yaitu rangkaian rumah kerabatnya terurut membesar untuk nomor ganjil, diikuti dengan terurut mengecil untuk nomor genap, di masing-masing daerah.
 #### soal1.go
@@ -139,6 +140,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
 [penjelasan]
+Program ini memanfaatkan Selection Sort untuk mengurutkan seluruh nomor rumah secara menaik terlebih dahulu. Setelah data terurut, program menampilkan semua nomor rumah ganjil dalam urutan membesar, kemudian menampilkan nomor rumah genap dalam urutan mengecil. Dengan cara ini, rumah di sisi kiri jalan (ganjil) dikunjungi lebih dahulu, lalu dilanjutkan dengan rumah di sisi kanan jalan (genap) sesuai aturan pada soal.
 
 ### 3. Buatlah sebuah program yang digunakan untuk membaca data integer seperti contoh yang diberikan di bawah ini, kemudian diurutkan (menggunakan metoda insertion sort), dan memeriksa apakah data yang terurut berjarak sama terhadap data sebelumnya. Masukan terdiri dari sekumpulan bilangan bulat yang diakhiri oleh bilangan negatif. Hanya bilangan non negatif saja yang disimpan ke dalam array. Keluaran terdiri dari dua baris. Baris pertama adalah isi dari array setelah dilakukan pengurutan, sedangkan baris kedua adalah status jarak setiap bilangan yang ada di dalam array. "Data berjarak x" atau "data berjarak tidak tetap".
 #### soal1.go
@@ -219,6 +221,7 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
 [penjelasan]
+Program ini membaca sekumpulan bilangan bulat non-negatif hingga ditemukan bilangan negatif sebagai penanda akhir input. Data yang telah dibaca kemudian diurutkan menggunakan algoritma Insertion Sort, yaitu dengan menyisipkan setiap elemen ke posisi yang sesuai pada bagian array yang sudah terurut. Setelah proses pengurutan selesai, program memeriksa apakah selisih antar elemen yang berurutan selalu sama. Jika sama, program menampilkan nilai jaraknya, sedangkan jika berbeda maka ditampilkan informasi bahwa data berjarak tidak tetap.
 
 ### 4. Buatlah sebuah program yang digunakan untuk membaca data integer seperti contoh yang diberikan di bawah ini, kemudian diurutkan (menggunakan metoda insertion sort), dan memeriksa apakah data yang terurut berjarak sama terhadap data sebelumnya. Masukan terdiri dari sekumpulan bilangan bulat yang diakhiri oleh bilangan negatif. Hanya bilangan non negatif saja yang disimpan ke dalam array. Keluaran terdiri dari dua baris. Baris pertama adalah isi dari array setelah dilakukan pengurutan, sedangkan baris kedua adalah status jarak setiap bilangan yang ada di dalam array. "Data berjarak x" atau "data berjarak tidak tetap".
 #### soal1.go
@@ -367,3 +370,4 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
 [penjelasan]
+Program ini mengelola data buku perpustakaan menggunakan struktur data struct. Pertama, program mencari buku dengan rating tertinggi sebagai buku terfavorit. Selanjutnya data buku diurutkan secara menurun (descending) berdasarkan rating menggunakan algoritma Insertion Sort, sehingga buku dengan rating tertinggi berada di urutan awal. Setelah itu program menampilkan lima buku dengan rating tertinggi dan melakukan pencarian buku berdasarkan rating yang dimasukkan pengguna menggunakan metode Binary Search, sehingga proses pencarian menjadi lebih cepat dan efisien pada data yang sudah terurut.
