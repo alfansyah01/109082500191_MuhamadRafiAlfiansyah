@@ -64,7 +64,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/SS1.png)
 [penjelasan]
 Program ini digunakan untuk mengurutkan nomor rumah kerabat Hercules di setiap daerah secara menaik (ascending) menggunakan algoritma Selection Sort. Algoritma bekerja dengan mencari nilai terkecil dari bagian array yang belum terurut, kemudian menukarnya dengan elemen pada posisi paling depan. Proses ini diulang hingga seluruh data tersusun dari nomor rumah terkecil hingga terbesar sesuai dengan ketentuan soal.
 
@@ -138,7 +138,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/SS2.png)
 [penjelasan]
 Program ini memanfaatkan Selection Sort untuk mengurutkan seluruh nomor rumah secara menaik terlebih dahulu. Setelah data terurut, program menampilkan semua nomor rumah ganjil dalam urutan membesar, kemudian menampilkan nomor rumah genap dalam urutan mengecil. Dengan cara ini, rumah di sisi kiri jalan (ganjil) dikunjungi lebih dahulu, lalu dilanjutkan dengan rumah di sisi kanan jalan (genap) sesuai aturan pada soal.
 
@@ -219,7 +219,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS1.png)
 [penjelasan]
 Program ini membaca sekumpulan bilangan bulat non-negatif hingga ditemukan bilangan negatif sebagai penanda akhir input. Data yang telah dibaca kemudian diurutkan menggunakan algoritma Insertion Sort, yaitu dengan menyisipkan setiap elemen ke posisi yang sesuai pada bagian array yang sudah terurut. Setelah proses pengurutan selesai, program memeriksa apakah selisih antar elemen yang berurutan selalu sama. Jika sama, program menampilkan nilai jaraknya, sedangkan jika berbeda maka ditampilkan informasi bahwa data berjarak tidak tetap.
 
@@ -368,6 +368,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS1.png)(https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS%232.png)
 [penjelasan]
 Program ini mengelola data buku perpustakaan menggunakan struktur data struct. Pertama, program mencari buku dengan rating tertinggi sebagai buku terfavorit. Selanjutnya data buku diurutkan secara menurun (descending) berdasarkan rating menggunakan algoritma Insertion Sort, sehingga buku dengan rating tertinggi berada di urutan awal. Setelah itu program menampilkan lima buku dengan rating tertinggi dan melakukan pencarian buku berdasarkan rating yang dimasukkan pengguna menggunakan metode Binary Search, sehingga proses pencarian menjadi lebih cepat dan efisien pada data yang sudah terurut.
