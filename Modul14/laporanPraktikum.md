@@ -369,6 +369,6 @@ func main() {
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS1.png)
-(https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS%232.png)
+![Screenshot Output Unguided 1_1](https://github.com/alfansyah01/109082500191_MuhamadRafiAlfiansyah/blob/main/Modul14/Output/IS%232.png)
 [penjelasan]
 Program ini mengelola data buku perpustakaan menggunakan struktur data struct. Pertama, program mencari buku dengan rating tertinggi sebagai buku terfavorit. Selanjutnya data buku diurutkan secara menurun (descending) berdasarkan rating menggunakan algoritma Insertion Sort, sehingga buku dengan rating tertinggi berada di urutan awal. Setelah itu program menampilkan lima buku dengan rating tertinggi dan melakukan pencarian buku berdasarkan rating yang dimasukkan pengguna menggunakan metode Binary Search, sehingga proses pencarian menjadi lebih cepat dan efisien pada data yang sudah terurut.
